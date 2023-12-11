@@ -1,71 +1,71 @@
 <?php
-/**
- *
- */
-interface IAnimal
-{
     /**
-     * @return string
+     *
      */
-  public function speak(): string;
-}
-
-/**
- *
- */
-class Dog implements IAnimal
-{
-    /**
-     * @return string
-     */
-    public function speak(): string
+    interface IAnimal
     {
-        return "barking";
+        /**
+         * @return string
+         */
+      public function speak(): string;
     }
-}
 
-/**
- *
- */
-class Cat implements IAnimal
-{
     /**
-     * @return string
+     *
      */
-    public function speak(): string
+    class Dog implements IAnimal
     {
-        return "Mou Mou";
+        /**
+         * @return string
+         */
+        public function speak(): string
+        {
+            return "barking";
+        }
     }
-}
 
-/**
- *
- */
-class Cow implements IAnimal
-{
     /**
-     * @return string
+     *
      */
-    public function speak(): string
+    class Cat implements IAnimal
     {
-        return "Hamba Hamba";
+        /**
+         * @return string
+         */
+        public function speak(): string
+        {
+            return "Mou Mou";
+        }
     }
-}
 
-/**
- *
- */
-class AnimalFactory
-{
     /**
-     * @param IAnimal $animal
-     * @return string
+     *
      */
-    public function createAnimal(IAnimal $animal)
+    class Cow implements IAnimal
     {
-       return $animal->speak();
+        /**
+         * @return string
+         */
+        public function speak(): string
+        {
+            return "Hamba Hamba";
+        }
     }
-}
-//we can pass any object here that implement IAnimal
-$animal =  (new AnimalFactory())->createAnimal(new Dog());
-echo $animal;
+
+    /**
+     *
+     */
+    class AnimalFactory
+    {
+        /**
+         * @param IAnimal $animal
+         * @return string
+         */
+        public function createAnimal(IAnimal $animal)
+        {
+           return $animal->speak();
+        }
+    }
+    //we can pass any object here that implement IAnimal
+    $animal =  (new AnimalFactory())->createAnimal(new Dog());
+    echo $animal;
