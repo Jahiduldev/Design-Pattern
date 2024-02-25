@@ -1,0 +1,10 @@
+The Singleton pattern in Laravel is primarily used within Laravel's service container.
+Laravel's service container is a powerful tool for managing class dependencies and performing dependency injection.
+It utilizes the Singleton pattern to ensure that only one instance of a particular class is created and shared throughout the application.
+
+Singleton (Service Container):
+Laravel's service container binds a class or an interface to its implementation.
+By default, when you resolve a class from the service container, Laravel will return the same instance of that class for subsequent resolutions within the
+ same request lifecycle, effectively implementing the Singleton pattern.
+
+Example: Binding a Class to the Service Container:
