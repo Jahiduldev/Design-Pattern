@@ -1,0 +1,10 @@
+The Builder pattern in Laravel is commonly used when you need to construct complex objects step by step.
+Laravel utilizes the Builder pattern in various components, such as query builders, HTTP request builders, and even in form builders.
+
+Let's look at how the Builder pattern is used in Laravel, specifically in the context of query builders:
+
+Builder (Query Builder):
+Laravel's query builder provides a fluent interface for building SQL queries.
+It allows you to construct SQL queries programmatically without writing raw SQL strings.
+
+Example: Building a Query with the Query Builder:
