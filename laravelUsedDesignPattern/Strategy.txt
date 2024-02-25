@@ -1,0 +1,8 @@
+The Strategy pattern in Laravel is often used in scenarios where you need to switch between different algorithms or implementations of a particular functionality dynamically. Laravel uses this pattern in various components such as filesystems, session drivers, cache drivers, and queue drivers, allowing developers to choose different implementations without changing the application's core code.
+
+Let's provide an example of how Laravel uses the Strategy pattern with filesystems:
+
+Strategy (Filesystem):
+Laravel allows you to switch between different filesystem implementations, such as local storage, Amazon S3, FTP, and more. This flexibility is achieved through the strategy pattern.
+
+Configuration Example (config/filesystems.php):
