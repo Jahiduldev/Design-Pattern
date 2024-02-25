@@ -1,6 +1,8 @@
-The Composite pattern in Laravel is used to treat individual objects and compositions of objects uniformly. It's often used when you have a hierarchy of objects and you want to work with both individual objects and groups of objects in a consistent manner.
+The Composite pattern in Laravel is used to treat individual objects and compositions of objects uniformly.
+It's often used when you have a hierarchy of objects and you want to work with both individual objects and groups of objects in a consistent manner.
 
 One common scenario where the Composite pattern is used in Laravel is with the Eloquent ORM, particularly when dealing with relationships between models.
 
 Composite (Eloquent Relationships):
-In Laravel's Eloquent ORM, you can define relationships between models, such as one-to-many, many-to-many, or polymorphic relationships. These relationships allow you to work with individual model instances and collections of related model instances in a unified way.
+In Laravel's Eloquent ORM, you can define relationships between models, such as one-to-many, many-to-many, or polymorphic relationships.
+These relationships allow you to work with individual model instances and collections of related model instances in a unified way.
