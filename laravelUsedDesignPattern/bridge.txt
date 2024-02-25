@@ -1,6 +1,8 @@
-The Bridge pattern in Laravel is often used to decouple an abstraction from its implementation so that the two can vary independently. In Laravel, you may see the Bridge pattern used in various scenarios where you want to separate an abstraction (such as an interface or abstract class) from its concrete implementations, allowing them to change independently without affecting each other.
+The Bridge pattern in Laravel is often used to decouple an abstraction from its implementation so that the two can vary independently.
+ In Laravel, you may see the Bridge pattern used in various scenarios where you want to separate an abstraction (such as an interface or abstract class) from its concrete implementations, allowing them to change independently without affecting each other.
 
-One common example of the Bridge pattern in Laravel is the way it handles different database connections. Let's look at how Laravel's database abstraction layer uses the Bridge pattern:
+One common example of the Bridge pattern in Laravel is the way it handles different database connections.
+Let's look at how Laravel's database abstraction layer uses the Bridge pattern:
 
 Bridge (Database Connection):
 Laravel's database layer allows you to work with multiple database systems like MySQL, PostgreSQL, SQLite, etc. The Bridge pattern is used to separate the database abstraction (the Connection interface) from its concrete implementations (e.g., MySqlConnection, PostgreSqlConnection, SQLiteConnection, etc.).
