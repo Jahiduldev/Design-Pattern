@@ -1,6 +1,9 @@
-The Abstract Factory pattern in Laravel is used to provide an interface for creating families of related or dependent objects without specifying their concrete classes. Laravel doesn't have a built-in implementation of the Abstract Factory pattern per se, but you can still apply the concept in your application architecture.
+The Abstract Factory pattern in Laravel is used to provide an interface for creating families of related or dependent
+ objects without specifying their concrete classes. Laravel doesn't have a built-in implementation of the Abstract Factory pattern per se,
+  but you can still apply the concept in your application architecture.
 
-One common scenario where you might use the Abstract Factory pattern in Laravel is when you need to create objects that belong to different families or variations, such as different types of database connections or drivers.
+One common scenario where you might use the Abstract Factory pattern in Laravel is when you need to create objects that belong to different
+families or variations, such as different types of database connections or drivers.
 
 Let's illustrate how you can implement a simple version of the Abstract Factory pattern in Laravel:
 
