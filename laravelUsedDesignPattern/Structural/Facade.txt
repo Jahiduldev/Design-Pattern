@@ -1,0 +1,12 @@
+In Laravel, the Facade pattern is a structural design pattern used to provide a static interface to classes that are available in the application's service container.
+Laravel's facades serve as "static proxies" to underlying classes in the service container,
+allowing you to access these classes in a more expressive and convenient manner.
+
+How Facades Work in Laravel:
+Static Interface: Laravel's facades provide a static interface to classes registered in the service container,
+allowing you to access their methods without needing to instantiate them.
+
+Dynamic Method Resolution: When you call a method on a facade, Laravel dynamically resolves the underlying class from the service container
+and delegates the method call to it.
+
+Expressive Syntax: Facades provide a clean and expressive syntax for accessing various components and services within the Laravel framework.
