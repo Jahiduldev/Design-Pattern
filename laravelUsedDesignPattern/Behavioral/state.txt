@@ -1,7 +1,7 @@
 
 The State pattern in Laravel is used to allow an object to change its behavior when its internal state changes.
- This pattern is particularly useful when you have an object that needs to exhibit different behaviors based on its internal state,
-  without changing its class.
+This pattern is particularly useful when you have an object that needs to exhibit different behaviors based on its internal state,
+without changing its class.
 
 In Laravel, the State pattern is often used in conjunction with Eloquent models to represent different states of entities in a system.
 
