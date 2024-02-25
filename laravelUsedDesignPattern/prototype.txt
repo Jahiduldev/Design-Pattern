@@ -1,0 +1,9 @@
+The Prototype pattern in Laravel isn't as prevalent as some other patterns like MVC or Factory,
+but it can still be applied in certain scenarios where you need to create new objects by copying existing ones.
+ While Laravel doesn't have a built-in implementation of the Prototype pattern per se, you can still implement the concept in your application code.
+
+One common scenario where you might use the Prototype pattern in Laravel is when you need to create new instances of an Eloquent model
+with similar attributes as an existing model instance. Here's how you can achieve that:
+
+Prototype (Eloquent Model):
+Let's say you have an Article model and you want to create a new article with similar attributes as an existing one.
