@@ -10,6 +10,7 @@ namespace RefactoringGuru\AbstractFactory\Conceptual;
  * variants, but the products of one variant are incompatible with products of
  * another.
  */
+
 interface AbstractFactory
 {
     public function createProductA(): AbstractProductA;
