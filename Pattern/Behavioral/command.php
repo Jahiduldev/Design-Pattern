@@ -57,6 +57,7 @@ class ComplexCommand implements Command
         $this->b = $b;
     }
 
+
     /**
      * Commands can delegate to any methods of a receiver.
      */
