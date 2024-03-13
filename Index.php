@@ -4,4 +4,4 @@
 //include 'Creational/Singleton.php';
 //include 'Creational/builder.php';
 //include 'Structural/adapter.php';
-include 'Behavioral/builder.php';
+//include 'Behavioral/builder.php';
