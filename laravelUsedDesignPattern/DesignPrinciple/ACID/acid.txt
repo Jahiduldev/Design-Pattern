@@ -1,0 +1,5 @@
+-----------------------------ACID-------------------
+01. Atomicity
+02. Consistency
+03. Isolation
+04. Durability
