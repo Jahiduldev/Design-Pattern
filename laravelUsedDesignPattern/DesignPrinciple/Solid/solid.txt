@@ -3,3 +3,4 @@
 02. Open/Closed Principle (OCP)
 03. Liskov Substitution Principle (LSP)
 04. Interface Segregation Principle (ISP)
+05. Dependency Inversion Principle (DIP):
