@@ -1,5 +1,5 @@
------------------------------ACID-------------------
-01. Atomicity
+-----------------------------CAP-------------------
+01. Consistency
 02. Consistency
 03. Isolation
 04. Durability
