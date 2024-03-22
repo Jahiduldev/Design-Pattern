@@ -1,0 +1,5 @@
+-----------------------------------SOLID---------------------------
+01. Single Responsibility Principle (SRP)
+02. Open/Closed Principle (OCP)
+03. Liskov Substitution Principle (LSP)
+04. Interface Segregation Principle (ISP)
